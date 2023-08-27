@@ -1,6 +1,6 @@
-@font-face { /* Clase para el tipo de letra */
+@font-face { /* Clase para el tipo de letra prueba git */
     font-family: 'IrishGrover'; 
-    src: url(../fuentes/IrishGrover.ttf) format('truetype'); 
+    src: url(../fuentes/IrishGrover.ttf) format('truetype');    
 }
  
 .fondocastillo { /* Clase para el fondo del Castillo */
