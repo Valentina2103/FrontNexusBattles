@@ -38,21 +38,11 @@
     margin-top: 520px;
     -webkit-text-stroke: .5px black; 
     transition: all 0.8s ease;
-    animation: sombraDorada 5s infinite ease;
 }
 .boton:hover {
-    animation-play-state: paused; 
     transform: scale(1.05); /* Agranda el boton al pasarle el mouse*/
 }
 
-@keyframes sombraDorada {
-    0%, 100% {/* Se mantiene con la siguiente sombra*/
-        box-shadow: 0 0 5px #DAA520, 0 0 20px #DAA520;
-    }
-    50% {/* En la mitad de la animacion se aumenta la sombra*/
-        box-shadow: 0 0 5px #DAA520, 0 0 20px #DAA520, 0 0 25px #DAA520, 0 0 50px #DAA520, 0 0 100px #DAA520;
-    }
-}
 
 .botones-container {
     text-align: center; 
@@ -76,7 +66,23 @@
     border-radius: 10px; 
     line-height: 1.6;    
     text-decoration: none;
+    -webkit-text-stroke: .5px black; 
+    transition: all 0.8s ease;
+    animation: sombraDorada 5s infinite ease;
+}
+.botonInicial:hover {
+    animation-play-state: paused; 
+
 }
 
+
+@keyframes sombraDorada {
+    0%, 100% {/* Se mantiene con la siguiente sombra*/
+        box-shadow: 0 0 5px #DAA520, 0 0 20px #DAA520;
+    }
+    50% {/* En la mitad de la animacion se aumenta la sombra*/
+        box-shadow: 0 0 5px #DAA520, 0 0 20px #DAA520, 0 0 25px #DAA520, 0 0 50px #DAA520, 0 0 100px #DAA520;
+    }
+}
 
 
