@@ -1,0 +1,46 @@
+body{
+    background: #CCBEA3;
+      font-family: 'Irish Grover';
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #896847;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  .mensaje h1 {
+    color: #080808;
+  }
+
+
+.btndiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnmadera{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnmadera:hover {
+    background-color: #A0522D;
+  }
