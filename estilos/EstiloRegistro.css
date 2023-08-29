@@ -91,30 +91,34 @@ body {
 .form-section h2 {
     font-size: 50px;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .form-section label {
     display: block;
     margin-bottom: 8px;
+    padding-top: 10px;
 }
 
 .form-section input {
     width: 60%;
-    padding: 4px;
+    padding: 5px;
     margin-bottom: 6px;
     border: 1px solid #ccc;
     border-radius: 15px;
+
 }
 
 .form-section button {
-    background-color: #007bff;
+    background-color: #CEB25D;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
+    text-align: center;
+    margin-top: 20px;
+   
     
    
     
@@ -122,6 +126,8 @@ body {
 }
 
 .form-section button:hover {
-    background-color: #0056b3;
+    background-color:#e9c14b;
+    transform: scale(1.1);
     
+
 }
