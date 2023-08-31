@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unirse a Torneo</title>
+</head>
+<body>
+  <button id="btnUnirse">Unirse a Torneo</button>
+  <p id="mensaje"></p>
+
+  <script>
+    const maxUsuarios = 7; // Máximo de usuarios permitidos en el torneo
+    let usuariosUnidos = 0; // Contador de usuarios unidos
+
+    const btnUnirse = document.getElementById('btnUnirse');
+    const mensaje = document.getElementById('mensaje');
+
+    btnUnirse.addEventListener('click', function() {
+      if (usuariosUnidos < maxUsuarios) {
+        usuariosUnidos++;
+        mensaje.textContent = 'Te has unido al torneo exitosamente.';
+        if (usuariosUnidos === maxUsuarios) {
+          btnUnirse.disabled = true; // Deshabilitar el botón cuando se alcanza el máximo
+        }
+      } else {
+        mensaje.textContent = 'El torneo ya está completo. No es posible unirse.';
+      }
+    });
+  </script>
+</body>
+</html>
