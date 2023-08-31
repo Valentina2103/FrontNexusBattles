@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/editarquipo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;800&family=Irish+Grover&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Editar equipo</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="#">Subasta</a>
+          <a href="#">Intercambio</a>
+          <a href="#">Torneos</a>
+        </nav>
+        <div class="logo">
+            <img src="../img/logoo.png" alt="">
+        </div>
+        <nav class="nav">
+            <a href="#">Mi banco</a>
+            <a href="#">Jugar online</a>
+            <a href="#">Perfil</a>
+        </nav>
+    </header>
+
+<div class="divcuerpo">
+    <a href="#" class="circulo">
+        Elegir logo
+      </a>
+    <div>
+        <button class="btnmadera" id="abrirModal">Nombre del equipo</button>
+    </div>
+    <div class="btndiv">
+        <button class="btnmargins2">Nombre de usuario</button>
+        <button class="btnmargins1">Invitar jugador</button>
+    </div>
+    <div class="btndivguardar">
+        <button class="btnmadera">Guardar cambios</button>
+    </div>
+</div>
+<div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>Ingrese el nombre del equipo</h2>
+      <input type="text" id="nombreEquipo">
+      <button id="cerrarModal" class="btnmadera">Aceptar</button>
+    </div>
+  </div>
+
+ 
+<script src="../js/editarequipo.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+body{
+    background: #CCBEA3;
+        margin: 0;
+        padding: 0;
+        font-family: 'Irish Grover';
+}
+
+.header {
+    background-image: url('../img/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 88px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+  }
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+.logo{
+    display: flex;
+
+  }
+.logo img{
+    margin-left: 20px;
+  }
+
+.btndiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    font-family: 'Irish Grover';
+} 
+
+.btnmargins1{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 100vh;
+    font-family: 'Irish Grover';
+    
+}
+
+.btnmargins2{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10vh;
+    font-family: 'Irish Grover';
+    
+}
+
+.divajustestrn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    font-family: 'Irish Grover';
+}
+
+.btnajustes{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5vh;
+    font-family: 'Irish Grover';
+}
+
+.btndivguardar{
+
+    position: fixed;
+    bottom: 10vh;
+    right: 30vh;
+
+ }
+
+ .btnmadera{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Irish Grover';
+}
+
+.divreglas{
+    position: fixed;
+    bottom: 30vh;
+    right: 80vh;
+
+}
+
+.reglasbox{
+    width: 50vh;
+    font-family: 'Irish Grover';
+    border-radius: 20px;
+    border: none;
+    opacity: 0.5;
+    resize: none; 
+}
+
+.descripciondiv{
+    position: fixed;
+    bottom: 40vh;
+    right: 10vh;
+
+}
+
+.descripcionbox{
+    width: 40vh;
+    font-family: 'Irish Grover';
+    border-radius: 20px;
+    border: none;
+    opacity: 0.5;
+    resize: none; 
+}

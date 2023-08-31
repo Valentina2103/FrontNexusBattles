@@ -17,7 +17,7 @@
         <nav class="nav">
             <a href="#">Mi banco</a>
             <a href="#">Jugar online</a>
-            <a href="#">Perfil</a>
+            <a href="PerfilUsuario.html">Perfil</a>
         </nav>
     </header>
     <br>
@@ -91,5 +91,35 @@
         <button type="button" class="save_button" onclick="addCard()">Guardar</button>
     </center>
     <br>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-content-inner">
+                <div class="image-container">
+                    <img id="modalImage" src="" alt="Imagen de la carta">
+                </div>
+                <div class="text-container">
+                    <h2 id="modalCardName">Nombre de la carta</h2>
+                    <p id="modalCardDescription">Descripción de la carta</p>
+                </div>
+            </div>
+            <div class="time-suspension">
+                <label for="suspensionTime">Tiempo de suspensión:</label>
+                <select id="suspensionTime">
+                    <option value="7">7 días</option>
+                    <option value="15">15 días</option>
+                    <option value="30">1 mes</option>
+                    <option value="90">3 meses</option>
+                    <option value="150">5 meses</option>
+                    <option value="indefinite">Indefinido</option>
+                </select>
+            </div>
+            <div class="button-container">
+                <button id="confirmSuspension">Suspender</button>
+            </div>
+        </div>
+    </div>    
+    
+    <script src="/js/suspendercartas.js"></script>    
 </body>
 </html>

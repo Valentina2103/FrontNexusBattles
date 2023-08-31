@@ -1,0 +1,160 @@
+body{
+    background: #CCBEA3;
+        margin: 0;
+        padding: 0;
+        font-family: 'Irish Grover';
+}
+
+.header {
+    background-image: url('../img/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 88px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+  }
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+.logo{
+    display: flex;
+
+  }
+.logo img{
+    margin-left: 20px;
+  }
+
+.circulo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #936037;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 3vh;
+    
+}
+
+.circulo a {
+    text-decoration: none; /* Asegura que no haya subrayado en el enlace */
+    color: inherit; /* Hereda el color del círculo */
+  }
+
+.circulo:hover {
+    background-color: #936037; /* Marrón más claro para resaltar */
+    transform: scale(1.1); /* Hace que el círculo se agrande un poco al pasar el mouse */
+}
+
+.divcuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+
+}
+
+.btndiv{
+ display: flex;
+ flex-direction: row;
+ margin-top: 2vh;
+}
+
+.btndivguardar{
+
+    position: fixed;
+    bottom: 10vh;
+    right: 40vh;
+
+ }
+
+
+.btnmadera{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnmadera:hover {
+    background-color: #A0522D;
+  }
+
+.btnmargins1{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnmargins2{
+    display: inline-block;
+    background-color: #8B4513;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 100% 40px; /* Ajusta el tamaño para controlar el espaciado entre las líneas */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 15vh;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}

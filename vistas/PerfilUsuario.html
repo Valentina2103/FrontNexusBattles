@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../estilos/EstiloPerfil.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="../estilos/EstiloInicioSesion.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;800&family=Irish+Grover&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function(){
+          $('.carousel-inner').slick({
+            dots: false, // Muestra los puntos de navegación
+            infinite: true, // Permite desplazamiento infinito
+            speed: 300, // Velocidad de la transición
+            slidesToShow: 2, // Cantidad de imágenes visibles a la vez
+            adaptiveHeight: true // Ajusta la altura según la imagen
+          });
+        });
+      </script>
+     
+    <header class="header">
+        <nav class="nav">
+            <a href="#">Subasta</a>
+            <a href="#">Intercambio</a>
+            <a href="creartorneo.html">Torneos</a>
+        </nav>
+        <nav class="nav">
+            <a href="#">Mi banco</a>
+            <a href="#">Jugar online</a>
+            <a href="#">Perfil</a>
+        </nav>
+    </header>
+
+
+    <main class="Fondo">
+        <div class="profile-header">
+            <img class="profile-image" src="../img/caballero2.png" alt="Imagen de perfil">
+            <h1 class="nameperfil">Nombre de Usuario</h1>
+            <p class="wins"> Vistorias: 100</p>
+        </div>
+        <div class="profile-container">
+            <div class="left-box">
+                <div class="navigation-column">
+                    <!-- Opciones de navegación como cartas y carrito de compras -->
+                    <ul>
+                        <a href=""><li>Editar Perfil</li></a>
+                        <a href=""><li>Tus tornes</li></a>
+                        <a href=""><li>Tus Subastas</li></a>
+                        <a href="GestionCartas.html"><li>Gestiona tus cartas</li></a>
+
+                        <!-- Otras opciones de navegación -->
+                    </ul>
+                </div>
+            </div>
+            <div class="carousel">
+                <h3 class="Tuscartas">Tus cartas</h3>
+                <div class="carousel-inner">
+                  <div><img src="../img/cartas.png" alt="Carta 1"></div>
+                  <div><img src="../img/cartas.png" alt="Carta 2"></div>
+                  <div><img src="../img/cartas.png" alt="Carta 3"></div>
+                  <div><img src="../img/cartas.png" alt="Carta 4"></div>
+                  <!-- Agrega más imágenes de cartas aquí -->
+                  
+                </div>
+                
+              </div>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
