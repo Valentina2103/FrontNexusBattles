@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover';
+  }
+  
+  .header {
+    background-image: url('../img/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+  
+  }
+  
+  .header:hover {
+  
+    color: #CEB25D
+  }
+  
+  .Fondo {
+    background-image: url('../img/fondo-inicio.jpg');
+    background-size: cover;
+    height: calc(100vh - 100px);
+    /* Toma el 100% del viewport height y resta la altura del header */
+    /* Toma el 100% del viewport height y resta la altura del header */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    padding-top: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav a:hover {
+  
+    color: blanchedalmond
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+.subscription-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las cartas horizontalmente */
+    background-color: rgba(234, 233, 233, 0.8); /* Fondo semi-transparente */
+    padding: 20px; /* Espacio alrededor del contenido */
+    border-radius: 20px;
+
+}
+
+.subscription-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+    flex: 1; /* Hace que las cartas ocupen un espacio igual */
+    max-width: 300px; /* Establece un ancho máximo para evitar que se extiendan demasiado */
+}
+
+.subscription-card:hover {
+    transform: scale(1.05);
+}
+
+.featured {
+    background-color: #ffcc00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+.subscription-card a{
+
+    text-decoration: none;
+    color: crimson
+}
