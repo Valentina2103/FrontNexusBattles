@@ -15,6 +15,13 @@ body {
     font-size: 30px;
   
   }
+  .Fondo {
+    background-image: url('../img/fondo-inicio.jpg');
+    background-size: cover;
+    height: calc(100vh - 100px);
+    /* Toma el 100% del viewport height y resta la altura del header */
+    /* Toma el 100% del viewport height y resta la altura del header */
+  }
   
   .header:hover {
   
@@ -63,7 +70,7 @@ body {
 }
 
 .subscription-card {
-    border: 1px solid #ccc;
+    border: 1px solid #0000006b;
     padding: 20px;
     width: 200px;
     text-align: center;
@@ -71,6 +78,8 @@ body {
     transition: transform 0.3s;
     flex: 1; /* Hace que las cartas ocupen un espacio igual */
     max-width: 300px; /* Establece un ancho máximo para evitar que se extiendan demasiado */
+    border-radius: 10px;
+    
 }
 
 .subscription-card:hover {
@@ -81,9 +90,10 @@ body {
     background-color: #ffcc00;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
+    border-radius: 15px;
 }
 .subscription-card a{
 
     text-decoration: none;
-    color: crimson
+    color: red;
 }
