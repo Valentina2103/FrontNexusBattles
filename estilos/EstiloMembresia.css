@@ -70,15 +70,16 @@ body {
 }
 
 .subscription-card {
-    border: 1px solid #0000006b;
-    padding: 20px;
+    
+    padding: 10px;
     width: 200px;
     text-align: center;
-    margin: 10px;
+    transform: scale(0.8);
     transition: transform 0.3s;
     flex: 1; /* Hace que las cartas ocupen un espacio igual */
-    max-width: 300px; /* Establece un ancho máximo para evitar que se extiendan demasiado */
-    border-radius: 10px;
+    max-width: 600px;/* Establece un ancho máximo para evitar que se extiendan demasiado */
+    max-height: 500px;
+    height: 500px;
     
 }
 
@@ -87,13 +88,28 @@ body {
 }
 
 .featured {
-    background-color: #ffcc00;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  
     transform: scale(1.1);
-    border-radius: 15px;
-}
-.subscription-card a{
+    cursor: pointer;
+    padding: 0px;
+    height: calc(100vh - 540px);
+    background-size: cover;
+    
 
-    text-decoration: none;
-    color: red;
 }
+
+.fondomenbre{
+
+  height: calc(100vh - 525px);
+  width: calc(100vh - 650px);
+  background-size: cover;
+  cursor: pointer;
+}.fondomenbre2{
+
+  
+  height: calc(100vh - 500px);
+  width: calc(100vh - 640px);
+  background-size: cover;
+}
+
