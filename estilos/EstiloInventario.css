@@ -138,7 +138,7 @@ main {
 
 .navigation-column {
   background-color: #f0f0f0a8;
-  width: 200px;
+  width: 100px;
   border-radius: 20px;
   text-align: start;
 }
@@ -149,7 +149,8 @@ main {
   border: 2px solid #575656a4;
   overflow: hidden;
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
+  width: 600px;;
 
   background: rgba(255,175,75,0.47);
 background: -moz-linear-gradient(45deg, rgba(255,175,75,0.47) 0%, rgba(255,175,75,0.42) 21%, rgba(255,146,10,0.26) 80%, rgba(255,146,10,0.21) 100%);
@@ -178,7 +179,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', end
 
 img {
 
-  width: 100%;
+  width: 90%;
+  
 
 
 }
