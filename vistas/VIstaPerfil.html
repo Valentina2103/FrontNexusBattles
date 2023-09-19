@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../estilos/EstiloPerfil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;800&family=Irish+Grover&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#">Subasta</a>
+            <a href="#">Intercambio</a>
+            <a href="#">Torneos</a>
+        </nav>
+        <nav class="nav">
+            <a href="#">Mi banco</a>
+            <a href="#">Jugar online</a>
+            <a href="#">Perfil</a>
+        </nav>
+    </header>
+    <main class="Fondo">
+        <div class="profile-card">
+            <form class="profile-form">
+                <img src="../img/avatar-2-hombre_1.webp" alt="Imagen de usuario" class="profile-image">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" value="Nombre">
+                    </div>
+                    <div class="grid-item">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" value="Apellido">
+                    </div>
+                    <div class="grid-item">
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" value="correo@ejemplo.com">
+                    </div>
+                    <div class="grid-item">
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" value="UserName">
+                    </div>
+                   
+                </div>
+                <div class="button-container">
+                    <button type="submit">Guardar Informacion</button>
+                    <button type="submit">Editar Informacion</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
